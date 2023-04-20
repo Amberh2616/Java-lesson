@@ -35,10 +35,10 @@ public class JavaApp1 {
         //NewClass_bmi.顯示結果();
         //NewClass_亂數.跑流程();
         //NewClass_bank.計算總數();
-        //NewClass_bank.設定初值();
-       // NewClass_bank.顯示帳戶資訊();
+        EX_bank.設定初值();
+        EX_bank.顯示帳戶資訊();
  //NewClass_bank.存款();
  //NewClass_bank.顯示帳戶資訊();
-
+ //工具.輸入成績();
     }
 }

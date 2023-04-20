@@ -19,7 +19,7 @@ public class NewClass333 {
     
     public  static void  設定初值(){
         System.out.println("------初值設定-----");
-            name ="amber";
+        name ="amber";
         eng = 100;
         math = 10;
         tol = 1;

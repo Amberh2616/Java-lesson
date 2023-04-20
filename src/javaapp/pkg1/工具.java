@@ -16,7 +16,7 @@ public class 工具 {
     public static Scanner sc= new Scanner(System.in);
    
     public static int 輸入成績(){
-      System.out.println();
+      System.out.println("輸入英文成績:");
       int x;
       x= sc.nextInt();
       return x;

@@ -9,25 +9,21 @@ package javaapp.pkg1;
  *
  * @author AMBER
  */
-public class NewMain_測試存款 {
+public class Ex06帳戶測試 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       boolean 結果;
-      
-       結果= EX05存款.存款(1500);
-       
-if ( 結果 ){
-System.out.println ("存款1500成功");}
-   
-else { System.out.println("存款1500失敗");}
-}
-}
-
-
-
-
+        
+        boolean x;
+        x= Ex06帳戶.存款(5000);
+        if (x){
+            System.out.println("ok");}
+        else {
+        System.out.println(" not ok");
+    }
+    }
     
+}

@@ -9,25 +9,16 @@ package javaapp.pkg1;
  *
  * @author AMBER
  */
-public class NewMain_測試存款 {
+public class DateTest {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       boolean 結果;
-      
-       結果= EX05存款.存款(1500);
-       
-if ( 結果 ){
-System.out.println ("存款1500成功");}
-   
-else { System.out.println("存款1500失敗");}
-}
-}
-
-
-
-
+       Date myDate = new Date(2023, 4, 7);
+       System.out.println(myDate.toString());
+        
+    }
     
+}
