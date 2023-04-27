@@ -31,7 +31,7 @@ public class Test {
         
         vg.addView(tv1);
         vg.addView(tv2);
-        vg.addView(bt);
+        vg.addView(btn);
         vg.show();
         
         tv1.show();
